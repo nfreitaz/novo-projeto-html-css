@@ -102,13 +102,17 @@ form input{
 form [type="submit"]{
     background-color:rgb(242, 205, 176);
     color: rgb(171, 166, 166);
+    width: 150px;
+    padding-left: 0px;
+    font: 14px;
+    height: 40px;
     
    
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
-    background-color: rgb(242, 205, 176);
+    background-color: rgba(242, 205, 176,0.75);
     transform: translateY(-2px);
     
    
@@ -156,6 +160,7 @@ a{
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover{
@@ -167,6 +172,8 @@ a{
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 
 .image img{
