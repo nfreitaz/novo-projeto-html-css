@@ -6,7 +6,7 @@
 }
 
 html,body{
-    font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins",Verdana;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -91,7 +91,7 @@ form{
 form input{
     width: 370px;
     padding-left: 15px;
-    font-size: 18px;
+    font-size: 14px;
     height: 45px;
     margin-bottom: 13px;
     border-radius: 20px;
