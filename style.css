@@ -9,13 +9,16 @@ html,body{
     font-family: "Poppins",Verdana;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    background-color: #f0f0f0;
 }
-
 
 /*Header*/
 
 header{
     background-color: #f0f0f0;
+    border-bottom: 2px solid rgb(242, 205, 176);
+    box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
+
 }
 
 header .container{
@@ -68,6 +71,7 @@ main .container-main{
     justify-content: space-between;
     max-width: 980px;
     margin: 100px auto 0px auto;
+
 }
 
 h2{
@@ -124,6 +128,11 @@ form [type="submit"]:hover{
 main .container-main img{
     width: 600px;
     border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 2px 1px 2px 5px rgba(250, 180, 157, 0.5);
+}
+.container-main img:hover{
+    transform: translatey(-10px);
 }
 
 
@@ -140,6 +149,7 @@ a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:20px;
+    background-color: #f0f0f0;
 }
 
 .text--medium{
@@ -219,7 +229,11 @@ text-align: center;
     border-radius: 20px;
     box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
     position: relative;
-    
+    transition: all 0.3s ease 0s; 
+}
+
+.desafio img:hover{
+        transform: translateY(-7px);
 }
 
 #form1 input{
