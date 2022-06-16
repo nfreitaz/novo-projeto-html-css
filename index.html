@@ -112,17 +112,23 @@
     </section>
     <section id="form">
         <div class="desafio">
-            <p>Agendamento banho e tosa</p>
-            <form>
-                <label for="nameowner">Nome do dono:</label>
-                <input type="text" id="nameowner" name="nameowner">
-                <label for="name">Nome do petzim:</label>
-                <input type="text" id="name" name="name">
-                <label for="date">Data de nascimento do bichinho:</label>
-                <input type="date" id="date" name="date">
+            <p>Cadastro para Banho e Tosa</p>
+            <form id="form1">
                 <fieldset>
+                    <legend>Dados do dono</legend>
+                    <label for="nameowner">Nome:</label>
+                    <input type="text" id="nameowner" name="nameowner">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf">
+                </fieldset>
+                <fieldset>
+                    <legend>Dados do petzim</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="date">Data de nascimento:</label>
+                    <input type="date" id="date" name="date">
                     <label for="race">Qual a raça:</label>
-                    <select name="flavors" id="flavors">
+                    <select name="race" id="race">
                         <option value=""></option>
                         <option value="Buldogue">Buldogue</option>
                         <option value="Labrador">Labrador</option>
@@ -135,7 +141,7 @@
                     </select>
                 </fieldset>
             </form>
-            <form>
+            <form id="form2">
                 <fieldset>
                     <legend>Informações para agendamento</legend>
                     <input type="radio" name="option" id="op1" value="1">
@@ -148,7 +154,7 @@
                     <label for="op1">20/06 ás 14:30</label>
                 </fieldset>
             </form>
-            <form>
+            <form id="form3">
                 <fieldset>
                     <legend>Informações para banho</legend>
                     <input type="checkbox" name="item1" id="item1" value="1">
@@ -156,12 +162,12 @@
                     <input type="checkbox" name="item2" id="item2" value="2">
                     <label for="op1">Hidratação</label>
                     <input type="checkbox" name="item3" id="item3" value="3">
-                    <label for="checkbox">Corte na máquina><label>
-                    <input type="checkbox" name="item4" id="item" value="4">
-                    <label for="op1">Corte na tesoura</label>
+                    <label for="checkbox">Corte na máquina<label>
+                            <input type="checkbox" name="item4" id="item" value="4">
+                            <label for="op1">Corte na tesoura</label>
                 </fieldset>
+                <button type="submit">Enviar</button>
             </form>
-
         </div>
     </section>
 </body>

@@ -95,8 +95,7 @@ form input{
     height: 45px;
     margin-bottom: 13px;
     border-radius: 20px;
-    border: 1px solid rgb(250, 91, 33);
-    
+    border: 1px solid rgb(250, 91, 33);   
 }
 
 form [type="submit"]{
@@ -105,23 +104,17 @@ form [type="submit"]{
     width: 150px;
     padding-left: 0px;
     font: 14px;
-    height: 40px;
-    
-   
+    height: 40px; 
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
     background-color: rgba(242, 205, 176,0.75);
-    transform: translateY(-2px);
-    
-   
+    transform: translateY(-2px); 
 }
 
 #label{
-    color: rgb(171, 166, 166);
-    
-   
+    color: rgb(171, 166, 166);  
 }
 
 #label2{
@@ -132,6 +125,7 @@ main .container-main img{
     width: 600px;
     border-radius: 10px;
 }
+
 
 
 /*Cards*/
@@ -194,12 +188,77 @@ a{
 }
 
 .desafio{
-    font-size: 12px;
-    display: flex;
+    font-size: 14px;
+    color:grey;
+    display: inline-block;
     justify-content: center;
-    height: 600px;
+    height: 650px;
     align-items: center;
-    border: 1px solid salmon;
-    margin: 100px auto;
+    border: 3px solid rgba(242, 205, 176,0.75);
+    border-radius: 10px;
+    margin: 50px 50px 50px 280px;
     max-width: 980px;
+    box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
+    padding: 10px 10px;
+}
+.desafio p{
+font-size: 20px;
+color: rgb(246, 167, 107);
+justify-content: center;
+box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
+margin-left: 8  0px;
+}
+
+#form1 input{
+    width: 250px;
+    height: 30px;
+    align-items: center;
+    margin-left:5px;
+}
+
+#form1 [type="date"]{
+    width: 150px;
+    
+}
+
+#form1 select{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(242, 205, 176,0.75);
+    background-color:rgba(242, 205, 176,0.75);
+    width: 250px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#form1 label{
+    display: block;
+    margin-left: 5px;
+}
+#form2 [type="radio"]{
+    display: inline;
+    font-size: 14px;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 5px;
+}
+
+#form3 [type="checkbox"]{
+    display: inline;
+    font-size: 14px;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 5px;
+}
+#form3 [type="submit"]{
+    background-color:rgb(242, 205, 176);
+    color: grey;
+    margin-top: 5px;
+    width: 150px;
+    padding-left: 0px;
+    font: 16px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
 }
