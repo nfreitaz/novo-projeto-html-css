@@ -111,7 +111,58 @@
         </a>
     </section>
     <section id="form">
-        <div class="desafio">Desafio</div>
+        <div class="desafio">
+            <p>Agendamento banho e tosa</p>
+            <form>
+                <label for="nameowner">Nome do dono:</label>
+                <input type="text" id="nameowner" name="nameowner">
+                <label for="name">Nome do petzim:</label>
+                <input type="text" id="name" name="name">
+                <label for="date">Data de nascimento do bichinho:</label>
+                <input type="date" id="date" name="date">
+                <fieldset>
+                    <label for="race">Qual a raça:</label>
+                    <select name="flavors" id="flavors">
+                        <option value=""></option>
+                        <option value="Buldogue">Buldogue</option>
+                        <option value="Labrador">Labrador</option>
+                        <option value="Poodle">Poodle</option>
+                        <option value="Golden">Golden</option>
+                        <option value="Pug">Pug</option>
+                        <option value="Chow-Chow">Chow-Chow</option>
+                        <option value="Sem raça definida">Sem raça definida</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Informações para agendamento</legend>
+                    <input type="radio" name="option" id="op1" value="1">
+                    <label for="op1">18/06 ás 13:00</label>
+                    <input type="radio" name="option" id="op2" value="2">
+                    <label for="op1">18/06 ás 13:30</label>
+                    <input type="radio" name="option" id="op3" value="3">
+                    <label for="op1">19/06 ás 14:00</label>
+                    <input type="radio" name="option" id="op4" value="4">
+                    <label for="op1">20/06 ás 14:30</label>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Informações para banho</legend>
+                    <input type="checkbox" name="item1" id="item1" value="1">
+                    <label for="item1">Banho e tosa</label>
+                    <input type="checkbox" name="item2" id="item2" value="2">
+                    <label for="op1">Hidratação</label>
+                    <input type="checkbox" name="item3" id="item3" value="3">
+                    <label for="checkbox">Corte na máquina><label>
+                    <input type="checkbox" name="item4" id="item" value="4">
+                    <label for="op1">Corte na tesoura</label>
+                </fieldset>
+            </form>
+
+        </div>
     </section>
 </body>
 
