@@ -95,7 +95,7 @@ form input{
     height: 45px;
     margin-bottom: 13px;
     border-radius: 20px;
-    border: 1px solid rgb(250, 91, 33);   
+    border: 1px solid rgb(249, 131, 88);   
 }
 
 form [type="submit"]{
@@ -192,25 +192,38 @@ a{
     color:grey;
     display: inline-block;
     justify-content: center;
-    height: 650px;
+    width: 900px;
+    height: 680px;
     align-items: center;
     border: 3px solid rgba(242, 205, 176,0.75);
     border-radius: 10px;
-    margin: 50px 50px 50px 280px;
+    margin: 30px 50px 50px 320px;
     max-width: 980px;
     box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
     padding: 10px 10px;
+    
 }
 .desafio p{
 font-size: 20px;
 color: rgb(246, 167, 107);
 justify-content: center;
 box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
-margin-left: 8  0px;
+margin-left: 20px 20px 20px 20px;
+text-align: center;
+}
+
+.desafio img{
+    float: left;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px -4px rgba(250, 180, 157, 0.5);
+    position: relative;
+    
 }
 
 #form1 input{
-    width: 250px;
+    width: 200px;
     height: 30px;
     align-items: center;
     margin-left:5px;
@@ -226,7 +239,7 @@ margin-left: 8  0px;
     border-radius: 10px;
     border: 1px solid rgba(242, 205, 176,0.75);
     background-color:rgba(242, 205, 176,0.75);
-    width: 250px;
+    width: 200px;
     height: 30px;
     margin-left: 5px;
     margin-bottom: 10px;
@@ -239,7 +252,6 @@ margin-left: 8  0px;
 #form2 [type="radio"]{
     display: inline;
     font-size: 14px;
-    border-radius: 10px;
     width: auto;
     margin-left: 5px;
 }
@@ -247,18 +259,18 @@ margin-left: 8  0px;
 #form3 [type="checkbox"]{
     display: inline;
     font-size: 14px;
-    border-radius: 10px;
     width: auto;
     margin-left: 5px;
 }
 #form3 [type="submit"]{
     background-color:rgb(242, 205, 176);
-    color: grey;
+    color: rgb(171, 166, 166);
     margin-top: 5px;
-    width: 150px;
+    width: 100px;
     padding-left: 0px;
     font: 16px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 5px;
+    border: 1px solid rgb(249, 131, 88);
 }

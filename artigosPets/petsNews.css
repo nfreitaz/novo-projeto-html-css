@@ -22,15 +22,15 @@ button{
     height: 30px;
     margin: 20px 0 30px 0px;
     border-radius: 10px;
-    color: white;
+    color: grey;
     font-size: 16px;
-    background-color: orange;
-    border: 1px solid orangered;
+    background-color: rgb(242, 205, 176);
+    border: 1px solid rgb(249, 131, 88);
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgba(orange, alpha);
+    background-color: rgb(242, 205, 176);
     transform: translateY(-2px);
 }
 

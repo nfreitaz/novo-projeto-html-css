@@ -26,6 +26,33 @@
     input{
         margin: 12px;
     }
+
+    .desafio{ 
+        display: flex;
+        margin-left: 80px;
+        width: 70%;
+        height: 30%;
+        flex-direction: column;
+    }
+    #form1 label{
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+    }
+    #form1 select{
+        margin-top: 20px;
+
+    }
+    
+    #form2 label{
+        display: inline;
+        margin-top: 0px;
+    }
+    }
+
+    #form3 label{
+        display: inline;
+    }
 }
 
 @media (max-width: 1000px){
@@ -50,8 +77,7 @@
         transform: translateX(100vw);
         transition: 0.5s ease transform;
     }
-
-
+    
 /*menu índice*/
     .menu>li{
         display: flex;
