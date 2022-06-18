@@ -50,7 +50,7 @@
                 <h2><span>Inscreva-se agora</span></h2>
                 <h2>Na NewsPet's</h2>
                 <h3>
-                    Saúde pro corpo, mente e emoções os benefícios de ter bichinhos como parte da família!
+                    Saúde pro corpo, mente e emoções. Os benefícios de ter bichinhos como parte da família!
                 </h3>
                 <form>
                     <label id="label" for="name">Escreva seu nome:</label>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="content">
                     <p class="title text--medium">
-                        Não é porquinho e nem veio da Índia!
+                        Não é um porquinho!
                     </p>
                     <div class="info">
                         <p class="text--medium">4 min</p>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="content">
                     <p class="title text--medium">
-                        Que isso Jessica?!
+                        Que isso Marcia?!
                     </p>
                     <div class="info">
                         <p class="text--medium">2 min</p>
@@ -114,62 +114,87 @@
         <div class="desafio">
             <p>Cadastro para Banho e Tosa</p>
             <img src="./images/banho.png" alt="dog no banho">
-            <form id="form1">
-                <fieldset>
-                    <legend>Dados do dono</legend>
-                    <label for="nameowner">Nome:</label>
-                    <input type="text" id="nameowner" name="nameowner" placeholder="José Alfredo">
-                    <label for="cpf">CPF:</label>
-                    <input type="text" id="cpf" name="cpf" placeholder="333.333.333-33">
-                </fieldset>
-                <fieldset>
-                    <legend>Dados do Petzim</legend>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Bolotinha">
-                    <label for="date">Data de nascimento:</label>
-                    <input type="date" id="date" name="date">
-                    <label for="race">Qual a raça:</label>
-                    <select name="race" id="race">
-                        <option value=""></option>
-                        <option value="Buldogue">Buldogue</option>
-                        <option value="Labrador">Labrador</option>
-                        <option value="Poodle">Poodle</option>
-                        <option value="Golden">Golden</option>
-                        <option value="Pug">Pug</option>
-                        <option value="Chow-Chow">Chow-Chow</option>
-                        <option value="Sem raça definida">Sem raça definida</option>
-                        <option value="Outro">Outro</option>
-                    </select>
-                </fieldset>
-            </form>
-            <form id="form2">
-                <fieldset>
-                    <legend>Informações para agendamento</legend>
-                    <input type="radio" name="option" id="op1" value="1">
-                    <label for="op1">18/06 ás 13:00</label>
-                    <input type="radio" name="option" id="op2" value="2">
-                    <label for="op1">18/06 ás 13:30</label>
-                    <input type="radio" name="option" id="op3" value="3">
-                    <label for="op1">19/06 ás 14:00</label>
-                    <input type="radio" name="option" id="op4" value="4">
-                    <label for="op1">20/06 ás 14:30</label>
-                </fieldset>
-            </form>
-            <form id="form3">
-                <fieldset>
-                    <legend>Informações para banho</legend>
-                    <input type="checkbox" name="item1" id="item1" value="1">
-                    <label for="item1">Banho e tosa</label>
-                    <input type="checkbox" name="item2" id="item2" value="2">
-                    <label for="op1">Hidratação</label>
-                    <input type="checkbox" name="item3" id="item3" value="3">
-                    <label for="checkbox">Corte na máquina<label>
-                            <input type="checkbox" name="item4" id="item" value="4">
-                            <label for="op1">Corte na tesoura</label>
-                </fieldset>
+            <div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Dados do dono</legend>
+                            <label for="nameowner">Nome:</label>
+                            <input type="text" id="nameowner" name="nameowner" placeholder="José Alfredo">
+                            <label for="cpf">CPF:</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="333.333.333-33">
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Dados do Petzim</legend>
+                            <label for="iname">Nome:</label>
+                            <input type="text" id="iname" name="name" placeholder="Bolotinha">
+                            <label for="date">Data de nascimento:</label>
+                            <input type="date" id="date" name="date">
+                            <label for="race">Qual a raça:</label>
+                            <select name="race" id="race">
+                                <option value=""></option>
+                                <option value="Buldogue">Buldogue</option>
+                                <option value="Labrador">Labrador</option>
+                                <option value="Poodle">Poodle</option>
+                                <option value="Golden">Golden</option>
+                                <option value="Pug">Pug</option>
+                                <option value="Chow-Chow">Chow-Chow</option>
+                                <option value="Sem raça definida">Sem raça definida</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Informações para banho</legend>
+                            <input type="checkbox" name="item1" id="item1" value="1">
+                            <label for="item1">Banho e tosa</label>
+                            <input type="checkbox" name="item2" id="item2" value="2">
+                            <label for="item2">Hidratação</label>
+                            <input type="checkbox" name="item3" id="item3" value="3">
+                            <label for="item3">Corte na máquina</label>
+                            <input type="checkbox" name="item4" id="item4" value="4">
+                            <label for="item4">Corte na tesoura</label>
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Horários e datas para agendamento:</legend>
+                            <select name="agendamento" id="agendamento">
+                                <option value=""></option>
+                                <option value="18/06 - 10:00hs">18/06 - 10:00hs</option>
+                                <option value="18/06 - 11:30hs">18/06 - 11:30hs</option>
+                                <option value="20/06 - 13:30hs">20/06 - 13:30hs</option>
+                                <option value="20/06 - 14:30hs">20/06 - 14:30hs</option>
+                                <option value="21/06 - 09:30hs">21/06 - 09:30hs</option>
+                                <option value="21/06 - 10:30hs">21/06 - 10:30hs</option>
+                                <option value="22/06 - 08:30hs">22/06 - 08:30hs</option>
+                                <option value="22/06 - 09:30hs">22/06 - 09:30hs</option>
+                            </select>
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Necessário PetMóvel? :</legend>
+                            <input type="radio" name="option" id="op1" value="1">
+                            <label for="op1">Sim</label>
+                            <input type="radio" name="option" id="op2" value="2">
+                            <label for="op2">Não</label>
+                        </fieldset>
+                    </form>
+                </div>
                 <button type="submit">Enviar</button>
-            </form>
-        </div>
+            </div>
     </section>
 </body>
 
