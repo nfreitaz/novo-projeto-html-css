@@ -117,12 +117,8 @@ form [type="submit"]:hover{
     transform: translateY(-2px); 
 }
 
-#label{
+label{
     color: rgb(171, 166, 166);  
-}
-
-#label2{
-    color: rgb(171, 166, 166);
 }
 
 main .container-main img{
@@ -293,4 +289,9 @@ text-align: center;
     cursor: pointer;
     background-color: rgba(242, 205, 176,0.75);
     transform: translateY(-2px);
+}
+
+footer{
+    font-size: 12px;
+    color: rgb(171, 166, 166);
 }
